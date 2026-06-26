@@ -1,5 +1,6 @@
 from psycopg2.extras import RealDictCursor
 from app.db.database import get_db_connection
+import random
 
 class CategoryCRUD:
     @staticmethod
